@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<link rel="stylesheet" href="styles.css">
+        <title>CSS</title>
+        <style>
+            body
+            {
+                background-image:url('bg.jpg');
+                background-size:1530px;
+            }
+            .name
+            {
+                display:inline-block;
+                font-family:Tahoma;
+                color:white;
+                margin-left:100px;
+                font-size:18px;
+            }
+            .button,.button2,.button3
+            {
+                display:inline-block;
+                color:white;
+                font-family:tahoma;
+                font-size:18px;
+                cursor:pointer;
+            }
+            .button
+            {
+                background-color:aqua;
+                color:white;
+                border:none;
+                padding-left:10px;
+                padding-right:10px;
+                padding-top:10px;
+                padding-bottom:10px;
+                font-weight:bold;
+                border-radius:40px;
+                margin-left:1200px;
+                cursor:pointer;
+            }
+            .button2
+            {
+                margin-right:20px;
+            }
+            .bodyhead
+            {
+			align-content:center;
+                color:white;
+                font-family:impact;
+                margin-top:180px;
+                font-size:32px;
+                width:600px;
+                font-weight:700px;
+                margin-left:450px;
+                text-align:center;
+                margin-bottom:0px;
+            }
+			.bodyhead1
+            {
+			align-content:center;
+                color:white;
+                font-family:lucidabright;
+                margin-top:20px;
+                font-size:32px;
+                width:600px;
+                font-weight:bold;
+                margin-left:450px;
+                text-align:center;
+                margin-bottom:0px;
+            }
+            hr
+            {
+                width:.5px;
+                
+               
+            }
+      
+            button
+            {
+                align-content:center;
+				font-family:utopia;
+				background-color:aqua;
+                color:white;
+                border:none;
+                padding-left:10px;
+                padding-right:10px;
+                padding-top:10px;
+                padding-bottom:10px;
+                font-weight:bold;
+                border-radius:20px;
+                margin-left:670px;
+                cursor:pointer;
+            }
+        </style>
+    </head>
+	<header>
+        <nav>
+            <ul>
+                <li id="h"><a href="styl.html">Home</a></li>
+                <li id="h"><a href="info.html">Information</a></li>				
+               <li id="h"><a href="entertainment.html">Entertainment</a></li>
+                <li id="h"><a href="hotels.html">Hotels</a></li>
+				<li id="h"><a href="business.html">Business</a></li>
+                <li id="h"><a href="transport.html">Transport</a></li>
+                
+            </ul>
+        </nav>
+</header>
+    <body>
+       <br><p class="name">CLUELESS CODERS PRESENTS</p>
+       <br><p class="button"><a href="terms.html">TERMS AND CONDITIONS</a></p>
+       <p class="bodyhead" align="center">WELCOME TO YOUR CITY GUIDE</p>
+	   <p class="bodyhead1" align="center">Discover the best attractions, dining, events, and more in our city.</p>
+       <hr>
+       
+       <br><button align="center"><a href="login.html">ABOUT THIS WEBSITE</a></button>
+	 
+	  
+	   
+    </body>
+</html>
